@@ -11,13 +11,13 @@
 <body>
    <header class="header">
       <div class="header__container">
-         <div class="header_left_logo">
+         <a class="header_left_logo" href="">
             <img class="header_left_logo_img" src="/assets/Logo.svg" alt="">
-         </div>
-         <div class="header_right_logo">
+         </a>
+         <a class="header_right_logo" href="">
             <img class="header_right_logo_img" src="/assets/Shopping Cart.svg" alt="">
             <div class="header_right_logo_text">SHOPPING CART</div>
-         </div>
+         </a>
       </div>
    </header>
    <main class="main">
@@ -29,12 +29,65 @@
                <div class="main_coffee_item_title">Extra Latte<sup class="main_coffee_item_price">$8.99</sup></div>
                <div class="main_coffee_item_additionals">
                   <div class="main_coffee_item_additionals_size">
-                     <input id="radio-1" type="radio" name="radio" value="250" checked/>
+                     <input id="radio-1" type="radio" name="radio1" value="250" checked/>
                      <label class="label">250ML</label>
-                     <input id="radio-2" type="radio" name="radio" value="500" />
+                     <input id="radio-2" type="radio" name="radio1" value="500" />
                      <label class="label">500 ML</label>
                    </div>
-                  checkbox
+                   <div class="main_coffee_item_additionals_sugar">
+                     <label class="label label_container">
+                       <div>ADD SUGAR</div>
+                       <input type="checkbox" />
+                       <span class="checkbox-mark"></span>
+                     </label>
+                   </div>
+               </div>
+               <div class="main_coffee_item_footer">
+                  <button class="main_coffee_item_footer_button">ADD TO CART</button>
+                  <img class="main_coffee_item_footer_info" src="/assets/Info.svg" alt="">
+               </div>
+            </div>
+            <div class="main_coffee_item">
+               <img class="main_coffee_item_img" src="/assets/2.svg" alt="">
+               <div class="main_coffee_item_title">Cappuccino<sup class="main_coffee_item_price">$9.99</sup></div>
+               <img class="spin-logo" src="/assets/Stamp.svg" alt="">
+               <div class="main_coffee_item_additionals">
+                  <div class="main_coffee_item_additionals_size">
+                     <input id="radio-3" type="radio" name="radio2" value="250" checked/>
+                     <label class="label">250ML</label>
+                     <input id="radio-4" type="radio" name="radio2" value="500" />
+                     <label class="label">500 ML</label>
+                  </div>
+                  <div class="main_coffee_item_additionals_sugar">
+                     <label class="label label_container">
+                       <div>ADD SUGAR</div>
+                       <input type="checkbox" />
+                       <span class="checkbox-mark"></span>
+                     </label>
+                  </div>
+               </div>
+               <div class="main_coffee_item_footer">
+                  <button class="main_coffee_item_footer_button">ADD TO CART</button>
+                  <img class="main_coffee_item_footer_info" src="/assets/Info.svg" alt="">
+               </div>
+            </div>
+            <div class="main_coffee_item">
+               <img class="main_coffee_item_img" src="/assets/3.svg" alt="">
+               <div class="main_coffee_item_title">Moccachino<sup class="main_coffee_item_price">$7.29</sup></div>
+               <div class="main_coffee_item_additionals">
+                  <div class="main_coffee_item_additionals_size">
+                     <input id="radio-5" type="radio" name="radio3" value="250" checked/>
+                     <label class="label">250ML</label>
+                     <input id="radio-6" type="radio" name="radio3" value="500" />
+                     <label class="label">500 ML</label>
+                  </div>
+                  <div class="main_coffee_item_additionals_sugar">
+                     <label class="label label_container">
+                        <input type="checkbox" />
+                        <span class="checkbox-mark"></span>
+                       <p>ADD SUGAR</p>
+                     </label>
+                  </div>
                </div>
                <div class="main_coffee_item_footer">
                   <button class="main_coffee_item_footer_button">ADD TO CART</button>
