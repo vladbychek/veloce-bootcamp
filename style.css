@@ -1,0 +1,135 @@
+.header_left_logo_text{
+   color: #023A6B;
+}
+
+.header_right_logo_text{
+   color: #023A6B;
+   font-size: 16px;
+   font-weight: 700;
+   line-height: 16px;
+   font-family: 'Open Sans', sans-serif;
+   padding-top: 6%;
+   padding-left: 6%;
+}
+
+.header{
+   height: 96px;
+   width: 1440px;
+   margin: 0 auto;
+}
+
+.header__container{
+   display: flex;
+   justify-content: space-between;
+   padding-top: 24px;
+}
+
+.header_left_logo{
+   display: flex;
+}
+
+.header_right_logo{
+   display: flex;
+}
+
+
+
+
+
+
+
+
+
+.main{
+   background-color: #FEF2E8;
+   width: 100%;
+   height: 100%;
+}
+
+.main_container{
+   width: 1140px;
+   margin: 0 auto;
+}
+
+.main_text{
+   font-family: 'Eczar', serif;
+   color: #023A6B;
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 57.6px;
+   padding: 50px 400px 50px 0;
+   /* width: 792px; */
+   /* height: 174px; */
+}
+
+.main_text_orange{
+   color: #FF7733;
+}
+
+
+
+.main_coffee_item_title{
+   font-weight: 700;
+   font-family: 'Eczar', serif;
+   color: #023A6B;
+   font-size: 32px;
+   line-height: 38.4px;
+}
+
+.main_coffee_item_price{
+   background-color: #FF7733;
+   border-radius: 16px;
+   color: white;
+   padding: 0 7px;
+   font-size: 16px;
+   line-height: 19.2px;
+   margin-left: 8px;
+}
+
+.main_coffee_item_additionals_size{
+   font-family: 'Open Sans', sans-serif;
+   font-size: 14px;
+   font-weight: 700;
+   color: #023A6B;
+   line-height: 16.8px;
+}
+
+.qwer{
+   color: orange;
+}
+
+
+
+.main_coffee_item_footer_button{
+   border: 2px solid #FFBD5C;
+   border-radius: 64px;
+   padding: 16px 24px 16px 24px;
+   background-color: rgba(0,0,0,0);
+   color: #023A6B;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 700;
+   font-size: 14px;
+   line-height: 16px;
+   margin-right: 15px;
+   cursor: pointer;
+
+}
+
+
+.main_coffee_item_footer_info{
+   cursor: pointer;
+}
+
+.form_radio input[type="radio"] {
+   display: grid;
+   place-content: center;
+   width: 24px;
+   height: 24px;
+   appearance: none;
+   background-color: #fff;
+   margin: 0;
+   font: inherit;
+   color: orange;
+   border: 3px solid #fff;
+   border-radius: 24px;
+ }
