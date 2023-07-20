@@ -15,7 +15,11 @@
             <img class="header_left_logo_img" src="/assets/Logo.svg" alt="">
          </a>
          <a class="header_right_logo" href="">
-            <img class="header_right_logo_img" src="/assets/Shopping Cart.svg" alt="">
+            <div class="header_right_logo_container">
+               <p class="order-count"></p>
+               <img class="header_right_logo_img cart1" src="/assets/ShoppingCart.svg" alt="">
+               <img class="header_right_logo_img cart2" src="/assets/FilledCart.svg" alt="">
+            </div>
             <div class="header_right_logo_text">SHOPPING CART</div>
          </a>
       </div>
@@ -43,7 +47,7 @@
                    </div>
                </div>
                <div class="main_coffee_item_footer">
-                  <button class="main_coffee_item_footer_button">ADD TO CART</button>
+                  <button onclick="addOrder()" class="main_coffee_item_footer_button">ADD TO CART</button>
                   <img class="main_coffee_item_footer_info" src="/assets/Info.svg" alt="">
                </div>
             </div>
@@ -67,7 +71,7 @@
                   </div>
                </div>
                <div class="main_coffee_item_footer">
-                  <button class="main_coffee_item_footer_button">ADD TO CART</button>
+                  <button onclick="addOrder()" class="main_coffee_item_footer_button">ADD TO CART</button>
                   <img class="main_coffee_item_footer_info" src="/assets/Info.svg" alt="">
                </div>
             </div>
@@ -90,12 +94,13 @@
                   </div>
                </div>
                <div class="main_coffee_item_footer">
-                  <button class="main_coffee_item_footer_button">ADD TO CART</button>
+                  <button onclick="addOrder()" class="main_coffee_item_footer_button">ADD TO CART</button>
                   <img class="main_coffee_item_footer_info" src="/assets/Info.svg" alt="">
                </div>
             </div>
          </div>
       </div>
    </main>
+   <script src="index.js"></script>
 </body>
 </html>
