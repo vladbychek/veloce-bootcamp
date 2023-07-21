@@ -10,95 +10,95 @@
 </head>
 <body>
    <header class="header">
-      <div class="header__container">
-         <a class="header_left_logo" href="">
-            <img class="header_left_logo_img" src="/assets/Logo.svg" alt="">
+      <section class="header-container">
+         <a class="header-left-logo" href="index.html">
+            <img class="header-left-logo-img" src="/assets/Logo.svg" alt="Logo">
          </a>
-         <a class="header_right_logo" href="">
-            <div class="header_right_logo_container">
+         <a class="header-right-logo" href="">
+            <div class="header-right-logo-container">
                <p class="order-count"></p>
-               <img class="header_right_logo_img cart1" src="/assets/ShoppingCart.svg" alt="">
-               <img class="header_right_logo_img cart2" src="/assets/FilledCart.svg" alt="">
+               <img class="header-right-logo-img cart1" src="/assets/ShoppingCart.svg" alt="ShoppingCart">
+               <img class="header-right-logo-img cart2" src="/assets/FilledCart.svg" alt="FilledShoppingCart">
             </div>
-            <div class="header_right_logo_text">SHOPPING CART</div>
+            <p class="header-right-logo-text">SHOPPING CART</p>
          </a>
-      </div>
+      </section>
    </header>
    <main class="main">
-      <div class="main_container">
-         <div class="main_text">We believe a cup of coffee is one of the most important, simple <span class="main_text_orange">pleasures</span> in life</div>
-         <div class="main_coffee">
-            <div class="main_coffee_item">
-               <img class="main_coffee_item_img" src="/assets/1.svg" alt="">
-               <div class="main_coffee_item_title">Extra Latte<sup class="main_coffee_item_price">$8.99</sup></div>
-               <div class="main_coffee_item_additionals">
-                  <div class="main_coffee_item_additionals_size">
+      <div class="main-container">
+         <p class="main-text">We believe a cup of coffee is one of the most important, simple <span class="main-text-orange">pleasures</span> in life</p>
+         <section class="main-coffee">
+            <li class="main-coffee-item">
+               <img class="main-coffee-item-img" src="/assets/ExtraLatte.svg" alt="ExtraLatte">
+               <p class="main-coffee-item-title">Extra Latte<sup class="main-coffee-item-price">$8.99</sup></p>
+               <div class="main-coffee-item-additionals">
+                  <div class="main-coffee-item-additionals-size">
                      <input id="radio-1" type="radio" name="radio1" value="250" checked/>
                      <label class="label">250ML</label>
                      <input id="radio-2" type="radio" name="radio1" value="500" />
                      <label class="label">500 ML</label>
                    </div>
-                   <div class="main_coffee_item_additionals_sugar">
-                     <label class="label label_container">
-                       <div>ADD SUGAR</div>
+                   <div class="main-coffee-item-additionals-sugar">
+                     <label class="label label-container">
+                       <p>ADD SUGAR</p>
                        <input type="checkbox" />
                        <span class="checkbox-mark"></span>
                      </label>
                    </div>
                </div>
-               <div class="main_coffee_item_footer">
-                  <button onclick="addOrder()" class="main_coffee_item_footer_button">ADD TO CART</button>
-                  <img class="main_coffee_item_footer_info" src="/assets/Info.svg" alt="">
-               </div>
-            </div>
-            <div class="main_coffee_item">
-               <img class="main_coffee_item_img" src="/assets/2.svg" alt="">
-               <div class="main_coffee_item_title">Cappuccino<sup class="main_coffee_item_price">$9.99</sup></div>
-               <img class="spin-logo" src="/assets/Stamp.svg" alt="">
-               <div class="main_coffee_item_additionals">
-                  <div class="main_coffee_item_additionals_size">
+               <section class="main-coffee-item-footer">
+                  <button onclick="addOrder()" class="main-coffee-item-footer-button">ADD TO CART</button>
+                  <img class="main-coffee-item-footer-info" src="/assets/Info.svg" alt="Info">
+               </section>
+            </li>
+            <li class="main-coffee-item">
+               <img class="main-coffee-item-img" src="/assets/Cappuccino.svg" alt="Cappuccino">
+               <p class="main-coffee-item-title">Cappuccino<sup class="main-coffee-item-price">$9.99</sup></p>
+               <img class="spin-logo" src="/assets/Stamp.svg" alt="Stamp">
+               <div class="main-coffee-item-additionals">
+                  <div class="main-coffee-item-additionals-size">
                      <input id="radio-3" type="radio" name="radio2" value="250" checked/>
                      <label class="label">250ML</label>
                      <input id="radio-4" type="radio" name="radio2" value="500" />
                      <label class="label">500 ML</label>
                   </div>
-                  <div class="main_coffee_item_additionals_sugar">
-                     <label class="label label_container">
-                       <div>ADD SUGAR</div>
+                  <div class="main-coffee-item-additionals-sugar">
+                     <label class="label label-container">
+                       <p>ADD SUGAR</p>
                        <input type="checkbox" />
                        <span class="checkbox-mark"></span>
                      </label>
                   </div>
                </div>
-               <div class="main_coffee_item_footer">
-                  <button onclick="addOrder()" class="main_coffee_item_footer_button">ADD TO CART</button>
-                  <img class="main_coffee_item_footer_info" src="/assets/Info.svg" alt="">
-               </div>
-            </div>
-            <div class="main_coffee_item">
-               <img class="main_coffee_item_img" src="/assets/3.svg" alt="">
-               <div class="main_coffee_item_title">Moccachino<sup class="main_coffee_item_price">$7.29</sup></div>
-               <div class="main_coffee_item_additionals">
-                  <div class="main_coffee_item_additionals_size">
+               <section class="main-coffee-item-footer">
+                  <button onclick="addOrder()" class="main-coffee-item-footer-button">ADD TO CART</button>
+                  <img class="main-coffee-item-footer-info" src="/assets/Info.svg" alt="Info">
+               </section>
+            </li>
+            <li class="main-coffee-item">
+               <img class="main-coffee-item-img" src="/assets/Moccachino.svg" alt="Moccachino">
+               <p class="main-coffee-item-title">Moccachino<sup class="main-coffee-item-price">$7.29</sup></p>
+               <div class="main-coffee-item-additionals">
+                  <div class="main-coffee-item-additionals-size">
                      <input id="radio-5" type="radio" name="radio3" value="250" checked/>
                      <label class="label">250ML</label>
                      <input id="radio-6" type="radio" name="radio3" value="500" />
                      <label class="label">500 ML</label>
                   </div>
-                  <div class="main_coffee_item_additionals_sugar">
-                     <label class="label label_container">
+                  <div class="main-coffee-item-additionals-sugar">
+                     <label class="label label-container">
                         <input type="checkbox" />
                         <span class="checkbox-mark"></span>
                        <p>ADD SUGAR</p>
                      </label>
                   </div>
                </div>
-               <div class="main_coffee_item_footer">
-                  <button onclick="addOrder()" class="main_coffee_item_footer_button">ADD TO CART</button>
-                  <img class="main_coffee_item_footer_info" src="/assets/Info.svg" alt="">
-               </div>
-            </div>
-         </div>
+               <section class="main-coffee-item-footer">
+                  <button onclick="addOrder()" class="main-coffee-item-footer-button">ADD TO CART</button>
+                  <img class="main-coffee-item-footer-info" src="/assets/Info.svg" alt="Info">
+               </section>
+            </li>
+         </section>
       </div>
    </main>
    <script src="index.js"></script>
